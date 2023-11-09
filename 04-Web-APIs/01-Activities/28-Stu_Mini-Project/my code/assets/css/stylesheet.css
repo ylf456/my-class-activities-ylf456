@@ -1,0 +1,74 @@
+h1 {
+    text-align: center;
+    font-size: 300%;
+    margin: 3% 0% 3% 0%
+}
+
+.container-word-record {
+    display: flex;
+    height: 70vh;
+    border-radius: 2%;
+    border-style: solid;
+    border-color: black;
+    background-color: rgb(231, 226, 226);
+    flex-wrap: wrap;
+    margin: 2% 2% 0% 2%;
+}
+
+.container-word-button-window {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 2%;
+    border-style: solid;
+    border-color: black;
+    background-color: rgb(238, 229, 229);
+    margin: 2%;
+    flex: 2 0;
+    margin: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.container-word-button-window #word-window {
+    flex: 4 0;
+    border-radius: 1%;
+    border-style: solid;
+    border-color: black;
+    width: 90%;
+    margin: 2%;
+}
+
+#start-button {
+    max-width: fit-content;
+    max-height: fit-content;
+}
+
+.record {
+    display: flex;
+    border-radius: 2%;
+    border-style: solid;
+    border-color: black;
+    margin: 2%;
+    width: 20%;
+    flex-direction: column;
+}
+
+.record-span {
+    border-style: solid;
+    border-color: black;
+    background-color: rgb(148, 148, 207);
+    height: 8%;
+    text-justify: center;
+    text-align: center;
+    padding-top: 3.5%;
+
+}
+
+.wins-span,
+.losses-span {
+    text-indent: 5%;
+    margin-top: 10%;
+}

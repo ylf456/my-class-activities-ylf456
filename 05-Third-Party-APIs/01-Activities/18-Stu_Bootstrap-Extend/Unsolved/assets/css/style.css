@@ -1,0 +1,22 @@
+:root {
+  --brown: #a88f82;
+  --tan: #f5e1d5;
+  --teal: #71a8a7;
+  --lightteal: #d5f5f5;
+  --light: #fffaf7;
+}
+
+.custom-navbar {
+  background-color: aqua;
+ font-size: 100%;
+}
+
+.custom-card-header {
+  background-color: rgb(220, 73, 73);
+}
+
+.card-body {
+  background-color: rgb(172, 131, 225);
+}
+/* Add your custom class style definitions here */
+/* HINT: Apply CSS variables using `var(--brown)` syntax as your property value */
